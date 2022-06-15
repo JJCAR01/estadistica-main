@@ -18,7 +18,7 @@ public class UsuarioTestDataBuilder {
         this.nombre = "juan";
         this.apellido = "Cardona";
         this.cargo = "operario";
-        this.contrasena = "Ygfg1234";
+        this.contrasena = "Ygfg123w4";
 
     }
 

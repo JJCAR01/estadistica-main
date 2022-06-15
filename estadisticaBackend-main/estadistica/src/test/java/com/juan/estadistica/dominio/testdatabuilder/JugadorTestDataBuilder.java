@@ -10,8 +10,8 @@
 
     public JugadorTestDataBuilder() {
         this.nombre = "juan";
-        this.numeroIdentificacion = "s23ew777";
-        this.equipo = "Med";
+        this.numeroIdentificacion = "a32453455";
+        this.equipo = "Nal";
 
     }
 

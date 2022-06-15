@@ -19,6 +19,8 @@ public class ServicioEliminarUsuarioTest {
 
         Mockito.when(!repositorio.existe(Mockito.any())).thenReturn(true);
 
-        Assertions.assertEquals("No existe el Usuario con los datos ingresados", Assertions.assertThrows(IllegalStateException.class, () -> servicio.ejecutar(1L)).getMessage());
+        Assertions.assertEquals("No existe el Usuario con los datos ingresados",
+                Assertions.assertThrows(IllegalStateException.class, () ->
+                        servicio.ejecutar(1L)).getMessage());
     }
 }

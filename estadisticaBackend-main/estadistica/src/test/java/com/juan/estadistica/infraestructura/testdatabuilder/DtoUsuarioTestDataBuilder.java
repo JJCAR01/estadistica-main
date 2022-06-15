@@ -12,7 +12,7 @@ public class DtoUsuarioTestDataBuilder {
     public DtoUsuarioTestDataBuilder() {
         this.nombre = "Juan";
         this.apellido = "CARDONA";
-        this.cargo = "EMPLEADO";
+        this.cargo = "empleado";
         this.contrasena = "Asdfghjks1234";
     }
 
