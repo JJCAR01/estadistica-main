@@ -28,7 +28,7 @@ public class Estadistica {
         ValidacionTexto.validarObligatorio(rival,"El rival no puede ser vacio");
         ValidacionTexto.validarNoVacia(fecha,"La fecha no puede ser vacia");
         ValidacionTexto.validarObligatorio(String.valueOf(jornada),"La jornada no puede ser vacio");
-        ValidacionNumero.numeroMayorACero(jornada,"La jornada debe ser mayor a cero");
+        ValidacionNumero.numeroMayorACero(jornada,"La jornada debe ser mayor  a cero");
         ValidacionNumero.numeroMayorACero(goles,"Los goles debe ser mayor a cero o igual");
         ValidacionNumero.numeroMayorACero(remates,"Los remates debe ser mayor a cero o igual");
         ValidacionNumero.numeroMayorACero(asistencias,"Las asistencias debe ser mayor a cero o igual");
